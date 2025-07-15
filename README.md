@@ -19,27 +19,28 @@
     
 2️⃣ Install dependencies
 
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+
+                  python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
+                  pip install -r requirements.txt
 3️⃣ Configure environment
 
-cp .env.example .env
-# Edit .env with your camera URLs, email credentials, etc.
+         cp .env.example .env
+         # Edit .env with your camera URLs, email credentials, etc.
 4️⃣ Fire it up
 
-Mode	Command
-Real-time feed	python main.py --mode live --source 0
-Video file	python main.py --mode file --source ./demo.mp4
-Web UI	streamlit run dashboard.py
+         Mode	         Command
+         Real-time feed	python main.py --mode live --source 0
+         Video file	python main.py --mode file --source ./demo.mp4
+         Web UI	streamlit run dashboard.py
 
 🧰 Tech Stack
 
-Layer	Tech
-Detection	YOLOv8 (PyTorch)
-Recognition	FaceNet, SVM
-Database	SQLite (default) / PostgreSQL (prod)
-Frontend	Streamlit
-Alerts	SMTP (email), Twilio (SMS)
+        | Layer	         |Tech
+        | Detection	| YOLOv8 (PyTorch)
+        | Recognition	| FaceNet, SVM
+        | Database	|SQLite (default) / PostgreSQL (prod)
+        | Frontend	|Streamlit
+        | Alerts	         |SMTP (email), Twilio (SMS)
 
 
 📁 Project Layout
