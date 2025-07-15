@@ -1,18 +1,20 @@
 🛡️ Surveillance-System
-Real-time object detection & face-recognition pipeline on live CCTV streams.
+        Real-time object detection & face-recognition pipeline on live CCTV streams.
 📌 Overview
-This repository contains a Python-based surveillance platform that:
-Captures live footage from IP / USB cameras.
-Detects persons, vehicles, weapons (YOLOv8).
-Recognizes authorized vs. unknown faces (FaceNet + SVM).
-Sends instant alerts (email / SMS) on anomalies.
-Stores events to a local SQLite / PostgreSQL back-end.
-Provides a Streamlit dashboard for real-time monitoring & playback.
+        This repository contains a Python-based surveillance platform that:
+        Captures live footage from IP / USB cameras.
+        Detects persons, vehicles, weapons (YOLOv8).
+        Recognizes authorized vs. unknown faces (FaceNet + SVM).
+        Sends instant alerts (email / SMS) on anomalies.
+        Stores events to a local SQLite / PostgreSQL back-end.
+        Provides a Streamlit dashboard for real-time monitoring & playback.
 🚀 Quick Start
 1️⃣ Clone & enter
 
-git clone https://github.com/NIKUNJGUPTA12/Surveillance-System.git
-cd Surveillance-System
+    git clone https://github.com/NIKUNJGUPTA12/Surveillance-System.git
+
+    cd Surveillance-System
+    
 2️⃣ Install dependencies
 
 python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
