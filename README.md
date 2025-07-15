@@ -1,6 +1,8 @@
 🛡️ Surveillance-System
-        Real-time object detection & face-recognition pipeline on live CCTV streams.
+
+         Real-time object detection & face-recognition pipeline on live CCTV streams.  
 📌 Overview
+
         This repository contains a Python-based surveillance platform that:
         Captures live footage from IP / USB cameras.
         Detects persons, vehicles, weapons (YOLOv8).
